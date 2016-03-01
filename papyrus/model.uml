@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_2nIbwN_JEeWHcuDB_OG6CA" name="RootElement">
+  <packagedElement xmi:type="uml:Model" xmi:id="_0FJjAN_QEeWHcuDB_OG6CA" name="Use Case View"/>
+  <packagedElement xmi:type="uml:Model" xmi:id="_00CpUN_QEeWHcuDB_OG6CA" name="Logical view"/>
+  <packagedElement xmi:type="uml:Model" xmi:id="_yyTwMN_SEeWHcuDB_OG6CA" name="Process View"/>
+  <packagedElement xmi:type="uml:Model" xmi:id="__EpEgN_SEeWHcuDB_OG6CA" name="Deployment View"/>
+  <packagedElement xmi:type="uml:Model" xmi:id="_1g3oMN_SEeWHcuDB_OG6CA" name="Component View"/>
+</uml:Model>

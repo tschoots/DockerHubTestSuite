@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_Gqh30N_TEeWHcuDB_OG6CA" type="PapyrusUMLClassDiagram" name="Overview" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_HSBVoN_TEeWHcuDB_OG6CA" type="2005">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HSIqYN_TEeWHcuDB_OG6CA" type="5020"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_HSJ4gN_TEeWHcuDB_OG6CA" type="7009">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_HSKfkN_TEeWHcuDB_OG6CA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HSKfkd_TEeWHcuDB_OG6CA"/>
+      </children>
+      <element xmi:type="uml:Model" href="model.uml#_0FJjAN_QEeWHcuDB_OG6CA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HSBVod_TEeWHcuDB_OG6CA" x="450" y="294" width="308" height="215"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_H9TuUN_TEeWHcuDB_OG6CA" type="2005">
+      <children xmi:type="notation:DecorationNode" xmi:id="_H9U8cN_TEeWHcuDB_OG6CA" type="5020"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_H9U8cd_TEeWHcuDB_OG6CA" type="7009">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_H9U8ct_TEeWHcuDB_OG6CA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H9U8c9_TEeWHcuDB_OG6CA"/>
+      </children>
+      <element xmi:type="uml:Model" href="model.uml#_00CpUN_QEeWHcuDB_OG6CA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H9TuUd_TEeWHcuDB_OG6CA" x="217" y="169"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_IWNWgN_TEeWHcuDB_OG6CA" type="2005">
+      <children xmi:type="notation:DecorationNode" xmi:id="_IWN9kN_TEeWHcuDB_OG6CA" type="5020"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_IWN9kd_TEeWHcuDB_OG6CA" type="7009">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_IWN9kt_TEeWHcuDB_OG6CA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IWN9k9_TEeWHcuDB_OG6CA"/>
+      </children>
+      <element xmi:type="uml:Model" href="model.uml#_yyTwMN_SEeWHcuDB_OG6CA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IWNWgd_TEeWHcuDB_OG6CA" x="224" y="501"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_JYf58N_TEeWHcuDB_OG6CA" type="2005">
+      <children xmi:type="notation:DecorationNode" xmi:id="_JYf58t_TEeWHcuDB_OG6CA" type="5020"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_JYf589_TEeWHcuDB_OG6CA" type="7009">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_JYf59N_TEeWHcuDB_OG6CA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JYf59d_TEeWHcuDB_OG6CA"/>
+      </children>
+      <element xmi:type="uml:Model" href="model.uml#__EpEgN_SEeWHcuDB_OG6CA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JYf58d_TEeWHcuDB_OG6CA" x="781" y="532"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Iz2UwN_TEeWHcuDB_OG6CA" type="2005">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Iz270N_TEeWHcuDB_OG6CA" type="5020"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_Iz270d_TEeWHcuDB_OG6CA" type="7009">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_Iz270t_TEeWHcuDB_OG6CA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Iz2709_TEeWHcuDB_OG6CA"/>
+      </children>
+      <element xmi:type="uml:Model" href="model.uml#_1g3oMN_SEeWHcuDB_OG6CA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Iz2Uwd_TEeWHcuDB_OG6CA" x="781" y="158"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_Gqh30d_TEeWHcuDB_OG6CA" name="diagram_compatibility_version" stringValue="1.1.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_Gqh30t_TEeWHcuDB_OG6CA"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_Gqh309_TEeWHcuDB_OG6CA">
+      <owner xmi:type="uml:Model" href="model.uml#_2nIbwN_JEeWHcuDB_OG6CA"/>
+    </styles>
+    <element xmi:type="uml:Model" href="model.uml#_2nIbwN_JEeWHcuDB_OG6CA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_WijgcN_TEeWHcuDB_OG6CA" type="UseCase" name="UseCaseDiagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_Wijgcd_TEeWHcuDB_OG6CA" name="diagram_compatibility_version" stringValue="1.1.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_Wijgct_TEeWHcuDB_OG6CA"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_Wijgc9_TEeWHcuDB_OG6CA">
+      <owner xmi:type="uml:Model" href="model.uml#_0FJjAN_QEeWHcuDB_OG6CA"/>
+    </styles>
+    <element xmi:type="uml:Model" href="model.uml#_0FJjAN_QEeWHcuDB_OG6CA"/>
+  </notation:Diagram>
+</xmi:XMI>
