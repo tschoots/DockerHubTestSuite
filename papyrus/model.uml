@@ -1,6 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_2nIbwN_JEeWHcuDB_OG6CA" name="RootElement">
-  <packagedElement xmi:type="uml:Model" xmi:id="_0FJjAN_QEeWHcuDB_OG6CA" name="Use Case View"/>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_2nIbwN_JEeWHcuDB_OG6CA" name="RootElement">
+  <packagedElement xmi:type="uml:Model" xmi:id="_0FJjAN_QEeWHcuDB_OG6CA" name="Use Case View">
+    <packagedElement xmi:type="uml:Actor" xmi:id="_XiXFsN_VEeWHcuDB_OG6CA" name="Tester"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_cyFS4N_VEeWHcuDB_OG6CA" name="Create reference test"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_fpu1cN_VEeWHcuDB_OG6CA" name="Regress refence test"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_jWHnoN_VEeWHcuDB_OG6CA" name="hub"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_kQ_7gN_VEeWHcuDB_OG6CA" name="git"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ltB0oN_VEeWHcuDB_OG6CA" memberEnd="_ltPQAN_VEeWHcuDB_OG6CA _ltPQAd_VEeWHcuDB_OG6CA" navigableOwnedEnd="_ltPQAN_VEeWHcuDB_OG6CA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ltEQ4N_VEeWHcuDB_OG6CA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ltEQ4d_VEeWHcuDB_OG6CA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_ltPQAN_VEeWHcuDB_OG6CA" name="git" type="_kQ_7gN_VEeWHcuDB_OG6CA" association="_ltB0oN_VEeWHcuDB_OG6CA"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_ltPQAd_VEeWHcuDB_OG6CA" name="create reference test" type="_cyFS4N_VEeWHcuDB_OG6CA" association="_ltB0oN_VEeWHcuDB_OG6CA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_oT5wQN_VEeWHcuDB_OG6CA" memberEnd="_oT6XUt_VEeWHcuDB_OG6CA _oT6XU9_VEeWHcuDB_OG6CA" navigableOwnedEnd="_oT6XUt_VEeWHcuDB_OG6CA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oT6XUN_VEeWHcuDB_OG6CA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oT6XUd_VEeWHcuDB_OG6CA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_oT6XUt_VEeWHcuDB_OG6CA" name="hub" type="_jWHnoN_VEeWHcuDB_OG6CA" association="_oT5wQN_VEeWHcuDB_OG6CA"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_oT6XU9_VEeWHcuDB_OG6CA" name="create reference test" type="_cyFS4N_VEeWHcuDB_OG6CA" association="_oT5wQN_VEeWHcuDB_OG6CA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_pj9C4N_VEeWHcuDB_OG6CA" memberEnd="_pj9C49_VEeWHcuDB_OG6CA _pj9p8N_VEeWHcuDB_OG6CA" navigableOwnedEnd="_pj9C49_VEeWHcuDB_OG6CA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pj9C4d_VEeWHcuDB_OG6CA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pj9C4t_VEeWHcuDB_OG6CA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_pj9C49_VEeWHcuDB_OG6CA" name="create reference test" type="_cyFS4N_VEeWHcuDB_OG6CA" association="_pj9C4N_VEeWHcuDB_OG6CA"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_pj9p8N_VEeWHcuDB_OG6CA" name="tester" type="_XiXFsN_VEeWHcuDB_OG6CA" association="_pj9C4N_VEeWHcuDB_OG6CA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_sLCZ4N_VEeWHcuDB_OG6CA" memberEnd="_sLDoAN_VEeWHcuDB_OG6CA _sLDoAd_VEeWHcuDB_OG6CA" navigableOwnedEnd="_sLDoAN_VEeWHcuDB_OG6CA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sLDA8N_VEeWHcuDB_OG6CA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sLDA8d_VEeWHcuDB_OG6CA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_sLDoAN_VEeWHcuDB_OG6CA" name="regress refence test" type="_fpu1cN_VEeWHcuDB_OG6CA" association="_sLCZ4N_VEeWHcuDB_OG6CA"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_sLDoAd_VEeWHcuDB_OG6CA" name="tester" type="_XiXFsN_VEeWHcuDB_OG6CA" association="_sLCZ4N_VEeWHcuDB_OG6CA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_uk2J4N_VEeWHcuDB_OG6CA" memberEnd="_uk3YAt_VEeWHcuDB_OG6CA _uk3YA9_VEeWHcuDB_OG6CA" navigableOwnedEnd="_uk3YAt_VEeWHcuDB_OG6CA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uk3YAN_VEeWHcuDB_OG6CA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uk3YAd_VEeWHcuDB_OG6CA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_uk3YAt_VEeWHcuDB_OG6CA" name="hub" type="_jWHnoN_VEeWHcuDB_OG6CA" association="_uk2J4N_VEeWHcuDB_OG6CA"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_uk3YA9_VEeWHcuDB_OG6CA" name="regress refence test" type="_fpu1cN_VEeWHcuDB_OG6CA" association="_uk2J4N_VEeWHcuDB_OG6CA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_2Zo74N_VEeWHcuDB_OG6CA" name="Configure Hub access" classifierBehavior="_4PWY8N_YEeWHcuDB_OG6CA">
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_4PWY8N_YEeWHcuDB_OG6CA" name="Activity1" group="_dVqkQN_ZEeWHcuDB_OG6CA _nCen0N_ZEeWHcuDB_OG6CA">
+        <group xmi:type="uml:ActivityPartition" xmi:id="_dVqkQN_ZEeWHcuDB_OG6CA" name="ActivityPartition1"/>
+        <group xmi:type="uml:ActivityPartition" xmi:id="_nCen0N_ZEeWHcuDB_OG6CA" name="ActivityPartition2"/>
+      </ownedBehavior>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_36-y0N_VEeWHcuDB_OG6CA" memberEnd="_36-y09_VEeWHcuDB_OG6CA _36_Z4N_VEeWHcuDB_OG6CA" navigableOwnedEnd="_36-y09_VEeWHcuDB_OG6CA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_36-y0d_VEeWHcuDB_OG6CA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_36-y0t_VEeWHcuDB_OG6CA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_36-y09_VEeWHcuDB_OG6CA" name="configure hub access" type="_2Zo74N_VEeWHcuDB_OG6CA" association="_36-y0N_VEeWHcuDB_OG6CA"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_36_Z4N_VEeWHcuDB_OG6CA" name="tester" type="_XiXFsN_VEeWHcuDB_OG6CA" association="_36-y0N_VEeWHcuDB_OG6CA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_5-s-EN_VEeWHcuDB_OG6CA" memberEnd="_5-tlId_VEeWHcuDB_OG6CA _5-tlIt_VEeWHcuDB_OG6CA" navigableOwnedEnd="_5-tlId_VEeWHcuDB_OG6CA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5-s-Ed_VEeWHcuDB_OG6CA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5-tlIN_VEeWHcuDB_OG6CA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_5-tlId_VEeWHcuDB_OG6CA" name="hub" type="_jWHnoN_VEeWHcuDB_OG6CA" association="_5-s-EN_VEeWHcuDB_OG6CA"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_5-tlIt_VEeWHcuDB_OG6CA" name="configure hub access" type="_2Zo74N_VEeWHcuDB_OG6CA" association="_5-s-EN_VEeWHcuDB_OG6CA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_peRYkOBMEeWCnoyOKRkleQ" name="Migrate to different docker node"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_tVQ4QOBMEeWCnoyOKRkleQ" memberEnd="_tVStceBMEeWCnoyOKRkleQ _tVTUgOBMEeWCnoyOKRkleQ" navigableOwnedEnd="_tVStceBMEeWCnoyOKRkleQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tVSGYOBMEeWCnoyOKRkleQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tVStcOBMEeWCnoyOKRkleQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_tVStceBMEeWCnoyOKRkleQ" name="migrate to different docker node" type="_peRYkOBMEeWCnoyOKRkleQ" association="_tVQ4QOBMEeWCnoyOKRkleQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_tVTUgOBMEeWCnoyOKRkleQ" name="tester" type="_XiXFsN_VEeWHcuDB_OG6CA" association="_tVQ4QOBMEeWCnoyOKRkleQ"/>
+    </packagedElement>
+  </packagedElement>
   <packagedElement xmi:type="uml:Model" xmi:id="_00CpUN_QEeWHcuDB_OG6CA" name="Logical view"/>
   <packagedElement xmi:type="uml:Model" xmi:id="_yyTwMN_SEeWHcuDB_OG6CA" name="Process View"/>
   <packagedElement xmi:type="uml:Model" xmi:id="__EpEgN_SEeWHcuDB_OG6CA" name="Deployment View"/>
