@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_2nIbwN_JEeWHcuDB_OG6CA" name="RootElement">
   <packagedElement xmi:type="uml:Model" xmi:id="_0FJjAN_QEeWHcuDB_OG6CA" name="Use Case View">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_nvXKQOBNEeWCnoyOKRkleQ">
+      <body>Questions:&#xD;
+1. is the reference test fully automated or would it involve manual interaction?&#xD;
+</body>
+    </ownedComment>
     <packagedElement xmi:type="uml:Actor" xmi:id="_XiXFsN_VEeWHcuDB_OG6CA" name="Tester"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_cyFS4N_VEeWHcuDB_OG6CA" name="Create reference test"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_fpu1cN_VEeWHcuDB_OG6CA" name="Regress refence test"/>
@@ -44,7 +49,7 @@
     <packagedElement xmi:type="uml:UseCase" xmi:id="_2Zo74N_VEeWHcuDB_OG6CA" name="Configure Hub access" classifierBehavior="_4PWY8N_YEeWHcuDB_OG6CA">
       <ownedBehavior xmi:type="uml:Activity" xmi:id="_4PWY8N_YEeWHcuDB_OG6CA" name="Activity1" group="_dVqkQN_ZEeWHcuDB_OG6CA _nCen0N_ZEeWHcuDB_OG6CA">
         <group xmi:type="uml:ActivityPartition" xmi:id="_dVqkQN_ZEeWHcuDB_OG6CA" name="ActivityPartition1"/>
-        <group xmi:type="uml:ActivityPartition" xmi:id="_nCen0N_ZEeWHcuDB_OG6CA" name="ActivityPartition2"/>
+        <group xmi:type="uml:ActivityPartition" xmi:id="_nCen0N_ZEeWHcuDB_OG6CA" name="ActivityPartition2" represents="_XiXFsN_VEeWHcuDB_OG6CA"/>
       </ownedBehavior>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_36-y0N_VEeWHcuDB_OG6CA" memberEnd="_36-y09_VEeWHcuDB_OG6CA _36_Z4N_VEeWHcuDB_OG6CA" navigableOwnedEnd="_36-y09_VEeWHcuDB_OG6CA">
@@ -68,6 +73,14 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_tVStceBMEeWCnoyOKRkleQ" name="migrate to different docker node" type="_peRYkOBMEeWCnoyOKRkleQ" association="_tVQ4QOBMEeWCnoyOKRkleQ"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_tVTUgOBMEeWCnoyOKRkleQ" name="tester" type="_XiXFsN_VEeWHcuDB_OG6CA" association="_tVQ4QOBMEeWCnoyOKRkleQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_JjCGAOCDEeWHnY4ntNhTIw" name="Analyse test result"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_MnPd4OCDEeWHnY4ntNhTIw" memberEnd="_MnPd4-CDEeWHnY4ntNhTIw _MnQE8OCDEeWHnY4ntNhTIw" navigableOwnedEnd="_MnPd4-CDEeWHnY4ntNhTIw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MnPd4eCDEeWHnY4ntNhTIw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MnPd4uCDEeWHnY4ntNhTIw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_MnPd4-CDEeWHnY4ntNhTIw" name="analyse test result" type="_JjCGAOCDEeWHnY4ntNhTIw" association="_MnPd4OCDEeWHnY4ntNhTIw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_MnQE8OCDEeWHnY4ntNhTIw" name="tester" type="_XiXFsN_VEeWHcuDB_OG6CA" association="_MnPd4OCDEeWHnY4ntNhTIw"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Model" xmi:id="_00CpUN_QEeWHcuDB_OG6CA" name="Logical view"/>
